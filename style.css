@@ -1,7 +1,7 @@
 h1 {color: #525252;}
 
 blockquote {
-  font-family: comic sans ms; /*choose from Web Safe Font*/
+  font-family: comic sans ms;     /*choose from Web Safe Font*/
   font-size: 16px;
   font-weight: 100;
   
@@ -14,6 +14,12 @@ blockquote {
 .header {height: 50px; 
   background-color: #dadada;
  }
+
+.main {
+  background-color: #f4f4f4;
+  width: 80%;                   /*not kind to various devices if using px */
+  margin: auto;
+}
 
 .footer {height: 100px;
   background-color: #333;
