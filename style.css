@@ -1,11 +1,23 @@
 h1 {color: #525252;}
 
+blockquote {
+  font-family: comic sans ms; /*choose from Web Safe Font*/
+  font-size: 16px;
+  font-weight: 100;
+  
+  /*same as above
+  font: 100 16px comic sans ms; */
+  
+  line-height: 1.6em; /*標準的な行間*/
+}
+
 .header {height: 50px; 
   background-color: #dadada;
  }
 
 .footer {height: 100px;
   background-color: #333;
+  color: #f4f4f4;
 }
 
 table {color: #dadada;}
