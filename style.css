@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  paddingng: 0;
+}
+
 h1 {color: #525252;}
 
 blockquote {
@@ -15,11 +20,45 @@ blockquote {
   background-color: #dadada;
  }
 
+.header h1{
+  text-align: center;
+  padding-top: 10px;
+}
+
 .main {
   background-color: #f4f4f4;
   width: 80%;                   /*not kind to various devices if using px */
   margin: auto;
 }
+
+#list {
+  border: 3px solid #294294;
+  border-radius: 10px;          /*round-corners*/
+  padding: 5px;
+  margin: 10px;
+  list-style: none;
+}
+
+.my-form{
+  padding: 5% 10% 20% 10%;　/*top right bottom left*/
+}
+
+
+.my-form input[type="text"], input[type="mail"], textarea{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.my-form input[type="number"], input[type="date"], select{
+  margin-bottom: 10px;
+}
+
+.my-form input[type="submit"]{
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
 
 .footer {height: 100px;
   background-color: #333;
