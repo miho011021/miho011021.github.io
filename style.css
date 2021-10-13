@@ -79,5 +79,19 @@ table {color: #dadada;}
   clear: both;             /*invalidate float*/
 }
 
+.block {
+        float: left;
+        width: 70%;}
+.box2 {
+        float: right;
+        width: 30%;
+        background-color: #ddd;
+        padding: 1%;
+        box-sizing: border-box;
+}
+.box2 li {
+  list-style: none;
+  box-sizing: border-box;
+  text-align: right;}
 
 
