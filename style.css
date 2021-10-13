@@ -94,4 +94,21 @@ table {color: #dadada;}
   box-sizing: border-box;
   text-align: right;}
 
+.p-box {
+  width: 800px;
+  height: 400px;
+  border: 1px solid #000;
+  margin: 10px; 
+  background-image: url(item/p_new0432_m_new04323.jpg);
+  background-repeat: no-repeat;     /*no repeat even if the img is smaller than the frame*/
+  background-position: center top;    /*locating*/                 
+}
+
+
+.chaser {
+  position: fixed;
+  top:500px;                  /*chasing by top 500px*/
+  border: 1px dotted #294294;
+}
+
 
