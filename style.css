@@ -114,10 +114,40 @@ table {color: #dadada;}
   background-image: url(item/k0132_1.png);
   background-position: center center; 
 }
+.my-list li:first-child{
+  background: red;
+}
 
+.my-list li:last-child{
+  background: purple;
+}
+
+.my-list li:nth-child(7){
+  background: green;
+}
+
+.my-list li:nth-child(even){
+  background: grey;
+}
 .frame3 {
   background-image: url(item/k0132_1.png);
-  background-position: bottom top; 
+  background-position: left top; 
+}
+
+.my-list li:first-child{
+  background: red;
+}
+
+.my-list li:last-child{
+  background: purple;
+}
+
+.my-list li:nth-child(7){
+  background: green;
+}
+
+.my-list li:nth-child(even){
+  background: grey;
 }
 
 
