@@ -95,13 +95,29 @@ table {color: #dadada;}
   text-align: right;}
 
 .p-box {
-  width: 800px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border: 1px solid #000;
   margin: 10px; 
-  background-image: url(item/p_new0432_m_new04323.jpg);
+  float: left;
+  box-sizing: border-box; 
+}
+
+.frame1 {
+  background-image: url(item/k0132_1.png);
+  background-position: center top; 
   background-repeat: no-repeat;     /*no repeat even if the img is smaller than the frame*/
-  background-position: center top;    /*locating*/                 
+  background-position: center top;    /*locating, holizontally and vertically*/    
+}
+
+.frame2 {
+  background-image: url(item/k0132_1.png);
+  background-position: center center; 
+}
+
+.frame3 {
+  background-image: url(item/k0132_1.png);
+  background-position: bottom top; 
 }
 
 
